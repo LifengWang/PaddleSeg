@@ -128,7 +128,6 @@ class Predictor:
                 inference_config=self.pred_cfg,
                 pids=pid,
                 process_name=None,
-                gpu_ids=0,
                 time_keys=[
                     'preprocess_time', 'inference_time', 'postprocess_time'
                 ],
